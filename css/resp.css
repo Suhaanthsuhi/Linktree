@@ -1,0 +1,51 @@
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    html{
+        overflow: hidden;
+    }
+    body{
+        overflow: scroll;
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .name{
+        font-size: 3.1rem;
+    }
+    .menu-link-btn{
+        width: 15%;
+        text-align: center;
+    }
+    .main-container{
+        flex-direction: column-reverse;
+    }
+    .right{
+        width: 93%;
+    }
+    .container{
+        width: 100%;
+        padding: 15px;
+    }
+    .nav-btn{
+        width: 49%;
+    }
+    .links{
+        width: 70%;
+    }
+    .footer{
+        position: relative;
+    }
+    .nav-links{
+        width: 100%;
+    }
+    .head{
+        font-size: 38px;
+    }
+    .aside{
+        width: 100%;
+    }
+    .card-1{
+        width: 90%;
+    }
+}
